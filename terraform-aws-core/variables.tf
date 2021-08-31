@@ -34,3 +34,8 @@ variable sub_zone {
   type= list
   default = []
 }
+
+variable my_new_variable {
+	type = string
+	default = "foo"
+}
